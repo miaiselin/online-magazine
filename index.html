@@ -3,22 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>['kafǝ]</title>
+    <link rel="stylesheet" href="css/style.css">    
 </head>
 
 <body>
-    <header>
-        <h1>KAFFE</h1>
-        <ul>
+    <div class="header">
+        <h1><a href="index.html" class="no-purple-color">['kafǝ]</a></h1>
+    </div>     
+        <div id="navbar">
+            <a href="info.html">OM KAFFE</a>
+            <a href="kaffe-i-aarhus.html">KAFFE I AARHUS</a>
+            <a href="opskrifter.html">OPSKRIFTER</a>
+            <a href="kurser.html">KURSER</a>
+            <a href="kontakt.html">KONTAKT</a>
+          </div>
+        <!-- <nav class="nav-bar">
           <li><a href="info.html">OM KAFFE</a></li>
-          <li><a href="kaffe-i-aarhus.html">GOD KAFFE I AARHUS</a></li>
+          <li><a href="kaffe-i-aarhus.html">KAFFE I AARHUS</a></li>
           <li><a href="opskrifter.html">OPSKRIFTER</a></li>
           <li><a href="kurser.html">KURSER</a></li>
           <li><a href="kontakt.html">KONTAKT</a></li>
-        </ul>
-      </header>
+          </nav>     -->
+      <section>
+        <div class="parent">
+            <div class="box 1">
+                <p>TESTFORSIDE</p>
+               
 
+            </div>
+        </div>
+      </section>
+
+      <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+            } else {
+            navbar.classList.remove("sticky");
+            }
+        }
+        </script>
+        
 </body>
 </html>
-
