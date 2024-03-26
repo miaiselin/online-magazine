@@ -110,18 +110,18 @@ header {
   }
   
   h1{
-    color: rgb(0, 0, 0);
+    color: #0693e3;
     font-family: "HelveticaNeue" important!;
     font-weight: 50;
   }
 
 .no-purple-color {
     text-decoration: none;
-    color: black;
+    color: #015a8e;
   }
   
   .no-purple-color:active {
-    color: black;
+    color:#0693e3;
   }
   
   .header {
